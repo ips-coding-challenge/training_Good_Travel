@@ -12,13 +12,10 @@ const styleFixed = {
 
 const Home = () => {
   return (
-    <div className="md:flex md:flex-row md:w-full p-3">
+    <div className="h-full w-full p-4 flex flex-col md:flex-row overflow-hidden">
       <Sidebar />
       <Content />
-      <div
-        style={{ ...styleFixed }}
-        className="hidden xl:block fixed rounded-xxl"
-      >
+      <div className="hidden w-full xl:block h-full rounded-xxl">
         <Slideshow />
       </div>
     </div>

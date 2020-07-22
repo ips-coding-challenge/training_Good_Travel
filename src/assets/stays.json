@@ -27,7 +27,25 @@
     "image": "https://images.unsplash.com/photo-1540998145333-e2eef1a9822d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1233&q=80"
   },
   {
-    "id": 3,
+    "id": 4,
+    "title": "Kantiang View Resort",
+    "subtitle": "Entire Bunglow in bay area",
+    "price": 25,
+    "rating": 4.55,
+    "comments": 60,
+    "image": "https://images.unsplash.com/photo-1535189043414-47a3c49a0bed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80"
+  },
+  {
+    "id": 5,
+    "title": "Kantiang View Resort",
+    "subtitle": "Entire Bunglow in bay area",
+    "price": 25,
+    "rating": 4.55,
+    "comments": 60,
+    "image": "https://images.unsplash.com/photo-1535189043414-47a3c49a0bed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80"
+  },
+  {
+    "id": 6,
     "title": "Kantiang View Resort",
     "subtitle": "Entire Bunglow in bay area",
     "price": 25,

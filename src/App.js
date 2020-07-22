@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="w-full min-h-full h-auto bg-lightgreen">
+    <div className="fixed inset-0 flex flex-col md:flex-row bg-lightgreen overflow-y-auto md:overflow-hidden">
       <Home />
     </div>
   );

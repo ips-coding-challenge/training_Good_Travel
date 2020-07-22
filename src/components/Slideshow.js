@@ -37,7 +37,7 @@ const Slideshow = () => {
       })}
 
       {/* Thumb controller */}
-      <div className="absolute max-w-full flex items-center justify-center bottom-0 right-0 md:w-3/4 w-full h-auto py-2 bg-white bg-opacity-25 rounded-xl md:mr-8 mb-8">
+      <div className="absolute max-w-full flex items-center justify-center bottom-0 right-0 w-auto h-auto px-6 py-2 bg-white bg-opacity-25 rounded-xl md:mr-8 mb-8">
         {thumbnails.map((t, i) => {
           return (
             <img

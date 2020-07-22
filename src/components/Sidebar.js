@@ -1,8 +1,8 @@
 import React from "react";
-
+// md:fixed md:inset-0 px-4 md:m-4 flex md:flex-col justify-between items-center bg-primary rounded-xl h:32 md:w-48
 const Sidebar = () => {
   return (
-    <div className="md:fixed md:inset-0 px-4 md:m-4 flex md:flex-col justify-between items-center bg-primary rounded-xl h:32 md:w-48">
+    <div className="h-32 md:w-48 md:h-full md:overflow-y-auto bg-primary flex md:flex-col justify-between items-center rounded-xl px-4">
       <h1 className="text-white text-2xl md:mt-4">
         Good <div className="font-bold">Travel.</div>
       </h1>
