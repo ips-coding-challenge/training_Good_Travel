@@ -1,13 +1,25 @@
 import React from "react";
 // md:fixed md:inset-0 px-4 md:m-4 flex md:flex-col justify-between items-center bg-primary rounded-xl h:32 md:w-48
 const Sidebar = () => {
+  const openMenu = () => {
+    document.querySelector(".nav-menu").classList.toggle("open");
+  };
+
   return (
-    <div className="h-32 md:w-48 md:h-full md:overflow-y-auto bg-primary flex md:flex-col justify-between items-center rounded-xl px-4">
+    <div className="relative h-32 md:w-48 md:h-full md:overflow-y-auto bg-primary flex md:flex-col justify-between items-center rounded-xl px-4">
       <h1 className="text-white text-2xl md:mt-4">
-        Good <div className="font-bold">Travel.</div>
+        Good <div className="font-bold inline-block sm:block">Travel.</div>
       </h1>
+      <div className="z-10 sm:hidden">
+        <i
+          onClick={openMenu}
+          className="material-icons text-white cursor-pointer"
+        >
+          menu
+        </i>
+      </div>
       {/* Menu */}
-      <ul className="flex md:flex-col md:flex-auto justify-center items-center py-8">
+      <ul className="nav-menu absolute sm:static w-full sm:w-auto flex md:flex-col md:flex-auto justify-center items-center py-4 sm:py-8">
         <li className="menu-link active">
           <svg
             width="32"

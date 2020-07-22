@@ -12,7 +12,10 @@ const styleFixed = {
 
 const Home = () => {
   return (
-    <div className="h-full w-full p-4 flex flex-col md:flex-row overflow-hidden">
+    <div
+      style={{ margin: "0 auto", maxWidth: "1600px" }}
+      className="h-full w-full p-4 flex flex-col md:flex-row overflow-hidden"
+    >
       <Sidebar />
       <Content />
       <div className="hidden w-full xl:block h-full rounded-xxl">
