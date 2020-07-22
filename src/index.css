@@ -1,7 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,500&display=swap");
+@import "~material-design-icons/iconfont/material-icons.css";
 /* purgecss start ignore */
 @tailwind base;
 
 @tailwind components;
+
+html {
+  font-family: "Raleway", "sans-serif";
+  font-size: 10px;
+}
+.menu-link {
+  cursor: pointer;
+  @apply mx-4;
+}
+.menu-link:hover svg path {
+  fill: white;
+}
+.menu-link svg path {
+  transition: fill 0.3s;
+  fill: #7863e4;
+}
+
+.menu-link.active svg path {
+  fill: white;
+}
+
+.DayPickerInput input {
+  font-size: 1.5rem;
+  font-weight: bold;
+  max-width: 100px;
+}
+.card {
+  cursor: pointer;
+}
+.card img {
+  transition: all 0.3s ease;
+}
+.card:hover img {
+  transform: scale(1.1);
+}
+
+@media (min-width: 767px) {
+  .menu-link {
+    @apply py-8;
+  }
+  .DayPickerInput input {
+    max-width: 70%;
+  }
+}
+
+@media (min-width: 992px) {
+  .DayPickerInput input {
+    max-width: 100%;
+  }
+}
+
 /* purgecss end ignore */
 
 @tailwind utilities;
