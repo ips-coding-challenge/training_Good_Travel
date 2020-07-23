@@ -1,4 +1,4 @@
-const { POSTCSS_MODES } = require('@craco/craco');
+const { POSTCSS_MODES } = require("@craco/craco");
 
 module.exports = {
   style: {
