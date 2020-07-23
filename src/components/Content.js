@@ -6,7 +6,7 @@ import Slideshow from "./Slideshow";
 const Content = () => {
   // flex-auto w-full lg:max-w-content xl:max-w-50 lg:mx-auto xl:mx-0 p-8 md:ml-56 xl:ml-56
   return (
-    <div className="mt-12 md:mt-0 overflow-y-auto max-w-content mx-auto w-full md:px-12 md:justify-center h-full">
+    <div className="mt-12 md:mt-0 overflow-y-auto max-w-content mx-auto w-full px-4 md:px-12 md:justify-center h-full">
       {/* Search input */}
       <div className="flex justify-between border-b border-gray-400 w-full py-4">
         <input
