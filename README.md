@@ -1,6 +1,6 @@
 ### Trying some stuff ;)
 
-https://vercel.com/ips-coding-challenge/training-good-travel
+https://training-good-travel-git-master.ips-coding-challenge.vercel.app/
 
 Original design by [Harshil Acharya](https://dribbble.com/harshil)
 
